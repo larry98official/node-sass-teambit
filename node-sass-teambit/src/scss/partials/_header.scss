@@ -1,0 +1,12 @@
+header {
+    nav {
+        max-width: 1200px;
+        margin-bottom: 40px;
+        height: 75px;
+        .header__wrapper {
+            margin: auto 0;
+            border-bottom: $border;
+            background-color: $primary_color;
+        }
+    }
+}
