@@ -1,33 +1,32 @@
 header {
     nav {
-        max-width: 1200px;
-        margin: 0 auto;
         .header__wrapper {
             height: 75px;
             margin: auto 0;
             border-bottom: $border;
-            background-color: $primary_color;
         }
         .header__wrapper__left {
             float: left;
-            background-image: orange;
         }
         .header__wrapper__right {
             display: block;
             float: right;
+            padding-top: 10px;
             .hd_left{
                 float: left;
                 .menu__item {
                     display: inline-block;
                     vertical-align: middle;
-                    margin-left: 20px;
+                    padding-left: 20px;
                 }
             }
             .hd_right {
                 float: left;
+                padding: 8px 10px 0 30px;
                 .header__menubtn {
-                    height: 35px;
-                    width: 35px;
+                    width: 90px;
+                    border-radius: $border-radius;
+                    border: $border;
                 }
             }
         }

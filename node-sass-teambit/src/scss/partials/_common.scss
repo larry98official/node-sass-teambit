@@ -1,4 +1,47 @@
+body {
+    font-family: $font;
+    color: #58402c;
+}
+
 a {
-    color: #30488F;
+    color: #58402c;
     text-decoration: none;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 22px;
+}
+
+button {
+    height: 35px;
+}
+
+label {
+    font-size: 13px;
+    padding: 15px;
+}
+
+.form__font {
+    font-weight: 400;
+}
+
+#form__color {
+    color: white;
 }

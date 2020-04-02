@@ -6,33 +6,70 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #58402c;
+}
+
 a {
-  color: #30488F;
+  color: #58402c;
   text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+nav {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 22px;
+}
+
+button {
+  height: 35px;
+}
+
+label {
+  font-size: 13px;
+  padding: 15px;
+}
+
+.form__font {
+  font-weight: 400;
+}
+
+#form__color {
+  color: white;
 }
 
 /* header */
 
-header nav {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 header nav .header__wrapper {
   height: 75px;
   margin: auto 0;
-  border-bottom: 1px solid black;
-  background-color: orange;
+  border-bottom: 1px solid #58402c;
 }
 
 header nav .header__wrapper__left {
   float: left;
-  background-image: orange;
 }
 
 header nav .header__wrapper__right {
   display: block;
   float: right;
+  padding-top: 10px;
 }
 
 header nav .header__wrapper__right .hd_left {
@@ -42,19 +79,53 @@ header nav .header__wrapper__right .hd_left {
 header nav .header__wrapper__right .hd_left .menu__item {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 header nav .header__wrapper__right .hd_right {
   float: left;
+  padding: 8px 10px 0 30px;
 }
 
 header nav .header__wrapper__right .hd_right .header__menubtn {
-  height: 35px;
-  width: 35px;
+  width: 90px;
+  border-radius: 10px;
+  border: 1px solid #58402c;
 }
 
 /* main */
+
+main nav {
+  margin-bottom: 80px;
+}
+
+main nav .main__content-right {
+  width: 45%;
+  float: left;
+}
+
+main nav .main__content-right .main__titles {
+  margin-bottom: 40px;
+}
+
+main nav .main__content-right .main__sign .btn__form {
+  margin: 0 auto 35px;
+}
+
+main nav .main__content-right .main__sign .btn__form .main__btn {
+  width: 180px;
+  color: white;
+  background-color: #30488F;
+  padding: 0 10px;
+  display: inline-block;
+  border: 1px solid #58402c;
+  border-radius: 10px;
+}
+
+main nav .main__content-left {
+  width: 55%;
+  float: right;
+}
 
 /* footer */
 

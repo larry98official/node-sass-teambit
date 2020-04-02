@@ -1,0 +1,30 @@
+main {
+    nav {
+        margin-bottom: 80px;
+        .main__content-right {
+            width: 45%;
+            float: left;
+            .main__titles {
+                margin-bottom: 40px;
+            }
+            .main__sign {
+                .btn__form {
+                    margin: 0 auto 35px;
+                    .main__btn {
+                        width: 180px;
+                        color: white;
+                        background-color: $button_color;
+                        padding: 0 10px;
+                        display: inline-block;
+                        border: $border;
+                        border-radius: $border-radius;
+                    }
+                }
+            }
+        }
+        .main__content-left {
+            width: 55%;
+            float: right;
+        }
+    }
+}
