@@ -54,6 +54,14 @@ label {
   color: white;
 }
 
+#card__text {
+  font-size: 18px;
+}
+
+img {
+  max-width: 570px;
+}
+
 /* header */
 
 header nav .header__wrapper {
@@ -123,7 +131,8 @@ main nav .main__content-right .main__sign .btn__form .main__btn {
 }
 
 main nav .main__content-left {
-  width: 55%;
+  margin-bottom: 70px;
+  width: 50%;
   float: right;
 }
 
