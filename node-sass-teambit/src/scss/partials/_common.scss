@@ -48,8 +48,23 @@ label {
 
 #card__text {
     font-size: 18px;
+    text-align: center;
 }
 
 img {
     max-width: 570px;
+}
+
+.img__card {
+    margin: 10px 0;
+    max-width: 150px;
+    max-height: 105px;
+}
+
+.mt8 {
+    margin-top: 80px;
+}
+
+.mg5 {
+    margin-bottom: 50px;
 }

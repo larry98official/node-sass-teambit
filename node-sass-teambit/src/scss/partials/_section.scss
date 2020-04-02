@@ -3,6 +3,69 @@ section {
     padding: 30px 0;
     background: $secondary_color;
     nav {
-
+        .first__block {
+            display: flex;
+            flex-direction: column;
+            border-bottom: $border;
+            .first__title {
+                display: flex;
+                text-align: center;
+                margin: 25px auto;
+                max-width: 630px;
+            }
+            .first__main {
+                display: flex;
+                flex-direction: column;
+                .cards {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    margin-bottom: 70px;
+                    .card__image {
+                        text-align: center;
+                    }
+                }
+                .bottom__img {
+                    margin: auto;
+                    #img__bottom {
+                        width: 280px;
+                        height: 286px;
+                    }
+                }
+            }
+        }
+        .second__block {
+            display: flex;
+            flex-direction: column;
+            .first__title {
+                display: flex;
+                text-align: center;
+                margin: 25px auto;
+                max-width: 630px;
+            }
+            .first__main {
+                display: flex;
+                flex-direction: column;
+                .cards {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    margin-bottom: 70px;
+                    .card__image {
+                        text-align: center;
+                    }
+                }
+                .bottom__img {
+                    margin: auto;
+                    #img__bottom {
+                        width: 280px;
+                        height: 286px;
+                    }
+                    .h__title {
+                        text-align: center;
+                    }
+                }
+            }
+        }
     }
 }

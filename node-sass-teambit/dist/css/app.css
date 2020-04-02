@@ -56,10 +56,25 @@ label {
 
 #card__text {
   font-size: 18px;
+  text-align: center;
 }
 
 img {
   max-width: 570px;
+}
+
+.img__card {
+  margin: 10px 0;
+  max-width: 150px;
+  max-height: 105px;
+}
+
+.mt8 {
+  margin-top: 80px;
+}
+
+.mg5 {
+  margin-bottom: 50px;
 }
 
 /* header */
@@ -104,7 +119,9 @@ header nav .header__wrapper__right .hd_right .header__menubtn {
 /* main */
 
 main nav {
-  margin-bottom: 80px;
+  height: 455px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 main nav .main__content-right {
@@ -134,6 +151,93 @@ main nav .main__content-left {
   margin-bottom: 70px;
   width: 50%;
   float: right;
+}
+
+/* section1 */
+
+section {
+  height: 1970px;
+  padding: 30px 0;
+  background: #ffe7d2;
+}
+
+section nav .first__block {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #58402c;
+}
+
+section nav .first__block .first__title {
+  display: flex;
+  text-align: center;
+  margin: 25px auto;
+  max-width: 630px;
+}
+
+section nav .first__block .first__main {
+  display: flex;
+  flex-direction: column;
+}
+
+section nav .first__block .first__main .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+section nav .first__block .first__main .cards .card__image {
+  text-align: center;
+}
+
+section nav .first__block .first__main .bottom__img {
+  margin: auto;
+}
+
+section nav .first__block .first__main .bottom__img #img__bottom {
+  width: 280px;
+  height: 286px;
+}
+
+section nav .second__block {
+  display: flex;
+  flex-direction: column;
+}
+
+section nav .second__block .first__title {
+  display: flex;
+  text-align: center;
+  margin: 25px auto;
+  max-width: 630px;
+}
+
+section nav .second__block .first__main {
+  display: flex;
+  flex-direction: column;
+}
+
+section nav .second__block .first__main .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+section nav .second__block .first__main .cards .card__image {
+  text-align: center;
+}
+
+section nav .second__block .first__main .bottom__img {
+  margin: auto;
+}
+
+section nav .second__block .first__main .bottom__img #img__bottom {
+  width: 280px;
+  height: 286px;
+}
+
+section nav .second__block .first__main .bottom__img .h__title {
+  text-align: center;
 }
 
 /* footer */
