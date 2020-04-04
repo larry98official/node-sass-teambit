@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #58402c;
@@ -31,6 +37,13 @@ h1 {
 
 h2 {
   font-size: 26px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 p {
@@ -75,6 +88,24 @@ img {
 
 .mg5 {
   margin-bottom: 50px;
+}
+
+#discover {
+  font-size: 22px;
+  color: #30488F;
+  text-decoration: none;
+}
+
+#grid__img {
+  max-width: 650px;
+}
+
+#communication {
+  max-width: 270px;
+}
+
+.underline {
+  margin-bottom: 40px;
 }
 
 /* header */
@@ -238,6 +269,27 @@ section nav .second__block .first__main .bottom__img #img__bottom {
 
 section nav .second__block .first__main .bottom__img .h__title {
   text-align: center;
+}
+
+section .container-wrapper {
+  background-color: white;
+  padding: 25px 0;
+}
+
+section .container-wrapper .fb-main {
+  margin: 30px 0;
+}
+
+section .container-wrapper .fb-main .main-sx {
+  width: 50%;
+  padding-right: 10px;
+  float: left;
+}
+
+section .container-wrapper .fb-main .main-dx {
+  width: 420px;
+  padding-left: 10px;
+  float: left;
 }
 
 /* footer */

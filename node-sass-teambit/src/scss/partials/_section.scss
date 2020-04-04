@@ -69,3 +69,23 @@ section {
         }
     }
 }
+
+section {
+    .container-wrapper{
+        background-color: white;
+        padding: 25px 0;
+        .fb-main {
+            margin: 30px 0;
+            .main-sx {
+                width: 50%;
+                padding-right: 10px;
+                float: left;
+            }
+            .main-dx {
+                width: 420px;
+                padding-left: 10px;
+                float: left;
+            }
+        }
+    }
+}

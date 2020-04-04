@@ -23,6 +23,13 @@ h1 {
 
 h2 {
     font-size: 26px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 p {
@@ -67,4 +74,22 @@ img {
 
 .mg5 {
     margin-bottom: 50px;
+}
+
+#discover {
+    font-size: 22px;
+    color: #30488F;
+    text-decoration: none
+}
+
+#grid__img {
+    max-width: 650px;
+}
+
+#communication {
+    max-width: 270px;
+}
+
+.underline {
+    margin-bottom: 40px;
 }
