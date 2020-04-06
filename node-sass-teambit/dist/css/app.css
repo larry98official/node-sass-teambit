@@ -102,10 +102,15 @@ img {
 
 #communication {
   max-width: 270px;
+  margin-top: 30px;
 }
 
 .underline {
   margin-bottom: 40px;
+}
+
+#alone {
+  padding-left: 180px;
 }
 
 /* header */
@@ -284,13 +289,14 @@ section .container-wrapper .fb-main .main-sx {
   width: 50%;
   padding-right: 10px;
   float: left;
+  text-align: left;
 }
 
 section .container-wrapper .fb-main .main-dx {
   width: 420px;
   padding-left: 10px;
   float: left;
+  text-align: left;
 }
 
 /* footer */
-
